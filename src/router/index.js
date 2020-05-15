@@ -17,6 +17,23 @@ Vue.use(VueRouter)
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
+  },
+  {
+    path: '/kaikei',
+    name: 'kaikei',
+    component: () => import(/* webpackChunkName: "about" */ '../views/kaikei.vue')
+  },
+  {
+    path: '/addmember',
+    name: 'addmember',
+    component: () => import(/* webpackChunkName: "about" */ '../views/addmember.vue')
+
+  },
+  {
+    path: '/shinsei',
+    name: 'shinsei',
+    component: () => import(/* webpackChunkName: "about" */ '../views/shinseiform.vue')
+
   }
 ]
 
