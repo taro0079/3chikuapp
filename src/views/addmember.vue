@@ -24,6 +24,8 @@
 </template>
 
 <script>
+import axios from 'axios'
+
 export default {
     data: () => ({
         items: [
@@ -37,6 +39,11 @@ export default {
             
 
 
-    })
+    }),
+    methods: {
+        pForm: function() {
+            axios.post('http;//localhost:8000/adduser', )
+        }
+    }
 }
 </script>

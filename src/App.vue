@@ -7,7 +7,7 @@
         <img src="@/assets/icon3chiku.png"/>
         <v-toolbar-title class="pa-5">第三地区のアプリ</v-toolbar-title>
         <v-spacer></v-spacer>
-        <v-btn icon><v-icon>mdi-home</v-icon></v-btn>
+        <v-btn icon to="/"><v-icon>mdi-home</v-icon></v-btn>
       </v-app-bar>
     </div>
     <v-content>
